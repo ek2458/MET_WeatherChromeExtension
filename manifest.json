@@ -1,0 +1,18 @@
+{
+  "name": "MET Cast",
+  "description": "Enjoy the Metropolitan Museum of Art's online collection based on the weather in your location",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {"16": "image/icon_16.jpg",
+  "32": "image/icon_32.jpg",
+  "48": "image/icon_48.jpg",
+  "128": "image/icon_128.jpg"
+  },
+  "browser_action": { 
+  "popup": "shopcmp.htm"  
+},
+  "manifest_version": 2
+}
